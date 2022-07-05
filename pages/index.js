@@ -4,7 +4,7 @@ import Hero from '../components/Home/Hero'
 import LearnAlone from '../components/Home/LearnAlone'
 import Structure from '../components/Home/Structure'
 import TutorialHell from '../components/Home/TutorialHell'
-import Layout from '../components/layout/layout'
+import Layout from '../components/layout/Layout'
 
 export default function Home() {
   return (
