@@ -47,21 +47,21 @@ const Hero = () => {
                                 <form className='space-y-2 text-gray-200'>
                                     <div>
                                         <label htmlFor="Name" className="block mb-1 text-sm font-medium">Name</label>
-                                        <input type="text" name="Name" placeholder="Enter your name" autoComplete="off" className="block placeholder:text-sm w-full px-3 box-border py-2 placeholder-gray-400 border rounded-md shadow-sm appearance-none disabled:opacity-50 disabled:cursor-not-allowed focus:ring-2 ring-indigo-500 sm:text-sm bg-gray-900 border-gray-700 text-gray-100" data-testid="name" required="" value="" />
+                                        <input type="text" name="Name" placeholder="Enter your name" autoComplete="off" className="block placeholder:text-sm w-full px-3 box-border py-2 placeholder-gray-400 border rounded-md shadow-sm appearance-none disabled:opacity-50 disabled:cursor-not-allowed focus:ring-2 ring-indigo-500 sm:text-sm bg-gray-900 border-gray-700 text-gray-100" data-testid="name" required="" />
                                     </div>
                                     <div>
                                         <label htmlFor="Username" className="block mb-1 text-sm font-medium">Username</label>
-                                        <input type="text" name="Username" data-testid="username" autoComplete="off" className="block placeholder:text-sm w-full px-3 box-border py-2 placeholder-gray-400 border rounded-md shadow-sm appearance-none disabled:opacity-50 disabled:cursor-not-allowed focus:ring-2 sm:text-sm bg-gray-900 border-gray-700 text-gray-100 ring-indigo-500" required="" minLength="3" maxLength="15" pattern="^[a-zA-Z0-9]+$" placeholder="Only alphanumeric allowed [a-z, A-Z, 0-9]" value=""/>
+                                        <input type="text" name="Username" data-testid="username" autoComplete="off" className="block placeholder:text-sm w-full px-3 box-border py-2 placeholder-gray-400 border rounded-md shadow-sm appearance-none disabled:opacity-50 disabled:cursor-not-allowed focus:ring-2 sm:text-sm bg-gray-900 border-gray-700 text-gray-100 ring-indigo-500" required="" minLength="3" maxLength="15" pattern="^[a-zA-Z0-9]+$" placeholder="Only alphanumeric allowed [a-z, A-Z, 0-9]"/>
                                         <small className="text-xs opacity-80 italic ml-1">Once set, username cannot be changed</small>
                                     </div>
                                     <div>
                                         <label htmlFor="email" className="block mb-1 text-sm font-medium">Email Address</label>
-                                        <input type="email" data-testid="email" placeholder="Enter your email address" autoComplete="off" className="block placeholder:text-sm w-full px-3 box-border py-2 placeholder-gray-400 border rounded-md shadow-sm appearance-none disabled:opacity-50 disabled:cursor-not-allowed focus:ring-2 ring-indigo-500 sm:text-sm bg-gray-900 border-gray-700 text-gray-100 ring-indigo-500" required="" id="email" name="email" value="" />
+                                        <input type="email" data-testid="email" placeholder="Enter your email address" autoComplete="off" className="block placeholder:text-sm w-full px-3 box-border py-2 placeholder-gray-400 border rounded-md shadow-sm appearance-none disabled:opacity-50 disabled:cursor-not-allowed focus:ring-2 ring-indigo-500 sm:text-sm bg-gray-900 border-gray-700 text-gray-100 ring-indigo-500" required="" id="email" name="email" />
                                     </div>
                                     <div>
                                         <div>
                                             <label htmlFor="Password" className="block mb-1 text-sm font-medium text-gray-200">Password</label>
-                                            <input type="password" data-testid="password" name="Password" placeholder="Enter a new password" autoComplete="off" className="block placeholder:text-sm w-full px-3 box-border py-2 placeholder-gray-400 border rounded-md shadow-sm appearance-none disabled:opacity-50 disabled:cursor-not-allowed focus:ring-2 ring-indigo-500 sm:text-sm bg-gray-900 border-gray-700 text-gray-100" required="" minLength="5" maxLength="50" value=""/>
+                                            <input type="password" data-testid="password" name="Password" placeholder="Enter a new password" autoComplete="off" className="block placeholder:text-sm w-full px-3 box-border py-2 placeholder-gray-400 border rounded-md shadow-sm appearance-none disabled:opacity-50 disabled:cursor-not-allowed focus:ring-2 ring-indigo-500 sm:text-sm bg-gray-900 border-gray-700 text-gray-100" required="" minLength="5" maxLength="50"/>
                                         </div>
                                     </div>
                                     <div>
