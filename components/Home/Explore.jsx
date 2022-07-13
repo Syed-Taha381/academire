@@ -39,7 +39,7 @@ const Explore = () => {
                 <div className="max-w-4xl mx-4 mt-6 text-center lg:mx-auto">
                     <Link href="#">
                         <a className="flex-none block w-full px-6 py-3 text-xl font-semibold leading-6 text-white transition-colors duration-200 bg-gray-900 border border-transparent sm:w-auto hover:bg-gray-700 rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none">
-                        Explore All Learning Paths
+                            Explore All Learning Paths
                         </a>
                     </Link>
                 </div>

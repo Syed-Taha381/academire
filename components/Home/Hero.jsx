@@ -8,12 +8,12 @@ const Hero = () => {
                     <div className='lg:py-24'>
                         <h1 className='mt-4 text-4xl font-extrabold tracking-tight text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl'>
                             <span className='block'>Learn Programming</span>
-                            <span className='block pb-3 text-transparent bg-clip-text bg-gradient-to-r from-indigo-200 to-cyan-400'>Interactively</span>
+                            <span className='block pb-3 text-transparent bg-clip-text gradient-color from-indigo-200 to-cyan-400'>Interactively</span>
                         </h1>
                         <p className='mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl'>Build projects, practice and learn to code from scratch - without leaving your browser.</p>
                         <div className='mt-10 sm:mt-12'>
                             <Link href="#">
-                                <a className='block w-full px-4 py-3 font-medium text-center md:text-lg text-white rounded-md shadow bg-gradient-to-r from-indigo-500 to-cyan-600 hover:bg-gradient-to-l'>
+                                <a className='block w-full px-4 py-3 font-medium text-center md:text-lg text-white rounded-md shadow all-button  from-indigo-500 to-cyan-600'>
                                     Explore All Roadmaps
                                 </a>
                             </Link>
@@ -65,7 +65,7 @@ const Hero = () => {
                                         </div>
                                     </div>
                                     <div>
-                                        <button type="submit" data-testid="submit-btn" disabled="" className="box-border flex justify-center w-full px-4 py-2 font-medium text-white bg-indigo-600 rounded-md mt-6 group disabled:cursor-not-allowed disabled:opacity-50 hover:bg-indigo-700 focus:outline-none focus:ring-1 focus:ring-offset-2 focus:ring-indigo-500">Let&apos;s go!</button>
+                                        <button type="submit" data-testid="submit-btn" disabled="" className="box-border flex justify-center w-full px-4 py-2 font-medium text-white bg-indigo-600 rounded-md mt-6 group disabled:cursor-not-allowed all-button disabled:opacity-50 hover:bg-indigo-700 focus:outline-none focus:ring-1 focus:ring-offset-2 focus:ring-indigo-500">Let&apos;s go!</button>
                                     </div>
                                 </form>
                             </div>

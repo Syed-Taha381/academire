@@ -55,7 +55,7 @@ const footer = () => {
                             </div>
                             <div>
                                 <Link href="#">
-                                    <a className="text-gray-300">support@codedamn.com</a>
+                                    <a className="text-gray-300">support@academire.com</a>
                                 </Link>
                             </div>
                         </div>
@@ -162,7 +162,7 @@ const footer = () => {
                     </div>
                 </div>
                 <div className="mt-12 border-t border-gray-600 pt-8">
-                    <p className="text-base text-gray-400 xl:text-center">© codedamn™ 2022 | All rights reserved.</p>
+                    <p className="text-base text-gray-400 xl:text-center">© Academire™ 2022 | All rights reserved.</p>
                 </div>
             </div>
         </footer>

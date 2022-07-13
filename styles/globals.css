@@ -48,19 +48,85 @@ body {
 }
 
 
-.Typewriter{
+.Typewriter {
   margin-left: 12px;
   margin-top: -27px;
 }
 
-.Typewriter__wrapper{
+.Typewriter__wrapper {
   background-color: #fefce8;
 }
 
-.Typewriter__cursor{
+.Typewriter__cursor {
   font-size: 93px;
 }
 
-.bg-tutorial{
+.bg-tutorial {
   background-color: #fafafa;
+}
+
+.menu-icon-color {
+  color: #262626;
+}
+
+.hover-dropdwon {
+  opacity: 0;
+  pointer-events: none;
+  transition-delay: .2s;
+}
+
+.drop-down:hover .hover-dropdwon {
+  opacity: 1 !important;
+  pointer-events: initial;
+  transition-delay: .3s;
+}
+
+.drop-down::before {
+  content: "";
+  width: 100%;
+  position: absolute;
+  height: 40px;
+  background-color: transparent;
+  top: 22px;
+  left: 0;
+  z-index: 90;
+}
+
+.playground-menu-hover {
+  left: -50%;
+  transform: translate(-27%);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.playground-menu:hover .playground-menu-hover {
+  opacity: 1 !important;
+  pointer-events: initial;
+  transition-delay: .3s;
+}
+
+.playground-menu::before {
+  content: "";
+  width: 100%;
+  position: absolute;
+  height: 40px;
+  background-color: transparent;
+  top: 22px;
+  left: 0;
+  z-index: 90;
+}
+
+.all-button {
+  background: linear-gradient(to right, #5DAB46, #2DB676) !important;
+}
+
+.all-button:hover {
+  background: linear-gradient(to right, #2DB676, #5DAB46) !important;
+}
+
+.gradient-color {
+  color: #5DAB46 !important;
+  background: linear-gradient(to right, #5DAB46, #2DB676) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
 }
